@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://onelink.tfl.gov.uk/sites/IRUF/SiteAssets/jquery.SPServices-2014.02.min.js" ></script>
+<title>TfL PyR Community</title>
+
+<body>
+
+<div id="header">
+	<div>
+		<img class="tflLogo" src="testTflPyr.png" />
+	</div>
+	<div id="logoCollection">
+		<div class=logobox onclick="window.open('https://github.com/tfl-pyr','GitHub');"><img class="gitHubLogo" src="GitHub.png"><div class="logoText">GitHub</div></div>
+		<div class=logobox onclick="window.open('https://www.python.org/','Python');"><img src="python-256-sm.png"><div class="logoText">Python</div></div>
+		<div class=logobox onclick="window.open('https://www.r-project.org/','R');"><img src="RStudio-sm.png"><div class="logoText">R</div></div>
+		<div class=logobox onclick="window.open('https://tfl-pyr.slack.com','Slack');"><img src="slackLogo-sm.png"><div class="logoText">Slack</div></div>
+	</div>
+</div>
+
+<table id="data">
+	<tr id="tblHead1">
+		<td>Title</td>
+		<td>Content</td>
+		<td>Tags</td>
+	</tr>
+</table>
+
+<div class="container">
+	<div class="arrows"><a href="#art12" class="arrows">&#9650;</a></div>
+	<div class="prodFamily">
+		<div id="art12" class="titleBox">
+			<div id="py1-sm" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Wed, 10th Jan 2018</div>
+				<div class="titleTxt">Let's all learn Python</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">Python</div><div class="tag">Tutorial</div>
+			</div>
+		</div>
+		<div id="art11" class="titleBox">
+			<div id="r1" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Tue, 9th Jan 2018</div>
+				<div class="titleTxt">R you sitting comfortably</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">R</div><div class="tag">Packages</div><div class="tag">Tutorial</div>
+			</div>
+		</div>
+		<div id="art10" class="titleBox" onclick="viewThis();">
+			<div id="pyr1" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Tue, 2nd Jan 2018</div>
+				<div class="titleTxt">Next PyR event</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">Event</div><div class="tag">Python</div><div class="tag">R</div>
+			</div>
+		</div>
+		<div id="art9" class="titleBox">
+			<div id="ds2" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Mon, 1st Jan 2018</div>
+				<div class="titleTxt">Read this interesting article</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">Article</div><div class="tag">External</div><div class="tag">Data science</div>
+			</div>
+		</div>
+		<div id="art8" class="titleBox">
+			<div id="ds1" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Sun, 31st Dec 2017</div>
+				<div class="titleTxt">...and this one</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">Article</div><div class="tag">External</div><div class="tag">Data science</div>
+			</div>
+		</div>
+		<div id="art7" class="titleBox">
+			<div id="ds3" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Sun, 31st Dec 2017</div>
+				<div class="titleTxt">This is the sixth article</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">Article</div><div class="tag">External</div><div class="tag">Data science</div>
+			</div>
+		</div>
+
+	
+		<div id="art6" class="titleBox">
+			<div id="py1-sm" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Wed, 10th Jan 2018</div>
+				<div class="titleTxt">Let's all learn Python 2</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">Python</div><div class="tag">Tutorial</div>
+			</div>
+		</div>
+		<div id="art5" class="titleBox">
+			<div id="r1" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Tue, 9th Jan 2018</div>
+				<div class="titleTxt">R you sitting comfortably 2</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">R</div><div class="tag">Packages</div><div class="tag">Tutorial</div>
+			</div>
+		</div>
+		<div id="art4" class="titleBox">
+			<div id="pyr1" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Tue, 2nd Jan 2018</div>
+				<div class="titleTxt">Next PyR event 2</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">Event</div><div class="tag">Python</div><div class="tag">R</div>
+			</div>
+		</div>
+		<div id="art3" class="titleBox">
+			<div id="ds2" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Mon, 1st Jan 2018</div>
+				<div class="titleTxt">Read this interesting article 2</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">Article</div><div class="tag">External</div><div class="tag">Data science</div>
+			</div>
+		</div>
+		<div id="art2" class="titleBox">
+			<div id="ds1" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Sun, 31st Dec 2017</div>
+				<div class="titleTxt">...and this one 2</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">Article</div><div class="tag">External</div><div class="tag">Data science</div>
+			</div>
+		</div>
+		<div id="art1" class="titleBox">
+			<div id="ds3" class="articleImg"></div>
+			<div class="optionBoxTitle">
+				<div class="articleDate">Sun, 31st Dec 2017</div>
+				<div class="titleTxt">This is the twelfth article</div>
+				<div class="summaryTxt">Lots more text in here to give a brief overview of what the subject of the article is going to be.</div>
+			</div>
+			<div class="tags">
+				<div class="tag">Article</div><div class="tag">External</div><div class="tag">Data science</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="arrows"><a href="#art6" class="arrows">&#9660;</a></div>
+</div>
+
+<div id="mainArticle">
+		<div id="py1-lg" class="mainArticleImg"></div>
+		<div id="mainArticleRect"></div>
+		<div id="mainArticleDate">Wed, 10th Jan 2018</div>
+		<div id="mainArticleTitle">Let's all learn Python</div>
+		<div id="mainArticleTags">
+			<div class="mainArticleTag">Python</div><div class="mainArticleTag">Tutorial</div>
+		</div>
+		<div class="mainArticleContent">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales ante in lobortis lacinia. Maecenas sapien mauris, facilisis sed enim eu, euismod placerat enim. Donec interdum quam eu augue facilisis, quis scelerisque felis condimentum. Phasellus venenatis, neque et suscipit posuere, tortor ex dictum orci, vitae posuere dolor nisl eu nibh. Suspendisse vehicula ante at semper bibendum. Sed lobortis mattis turpis scelerisque sollicitudin. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Duis pulvinar erat quis egestas faucibus.</p>
+			<p>Mauris quis blandit purus. Suspendisse sed quam nisi. Nullam lacinia et ante sed egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus facilisis eu mi a blandit. Aliquam lacinia lacinia malesuada. Nullam in lacus sed est lacinia ullamcorper eget sit amet dui. Nulla mattis quam eleifend purus dignissim, vestibulum elementum ipsum consequat. Nunc luctus magna sit amet est lacinia efficitur. Nunc arcu massa, finibus id aliquet nec, pellentesque posuere dolor. Sed est lorem, euismod at tortor eget, ultricies molestie erat. Quisque tristique est eget lorem fermentum, ac suscipit tellus sagittis.</p>
+			<p>Fusce tempor urna sit amet semper pulvinar. Nam at libero urna. Donec non tempus quam. Curabitur eu sem nec lorem interdum sodales a vel augue. Sed et facilisis risus. Donec ut tincidunt ipsum, non euismod tortor. Nunc interdum lorem ut efficitur laoreet. Praesent volutpat purus sollicitudin sapien tristique egestas. Nam vel ex rhoncus, dignissim purus in, commodo urna.</p>
+			<p>Etiam eget cursus nunc. Mauris malesuada ante lectus. Curabitur non orci sit amet urna varius mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis facilisis auctor malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam ut eros sed mi maximus convallis. Nam vitae ullamcorper orci, sed accumsan augue. Quisque nec nisi ac ligula fringilla commodo.</p>
+			<p>Suspendisse sed consectetur felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas lacus justo, molestie ut tempor quis, luctus ac ante. Aliquam consectetur vehicula urna, vitae vehicula libero sagittis in. Morbi aliquam augue sit amet mauris condimentum sodales. Nunc imperdiet magna est, vel hendrerit enim dapibus eget. Donec egestas bibendum elementum. Maecenas a consectetur eros, nec vehicula mi.</p>
+			<p>Vivamus sit amet malesuada est, in laoreet purus. Sed viverra quam nec iaculis feugiat. Praesent rutrum sit amet nunc a facilisis. Nulla vitae condimentum augue. Nulla facilisi. Aliquam a tempus tellus, ultricies congue ipsum. Sed lacinia, nulla sed molestie feugiat, diam nibh interdum mi, et egestas turpis libero in nibh. Etiam imperdiet congue enim eu interdum. Suspendisse ipsum quam, scelerisque ac laoreet et, eleifend in leo. Morbi tempor, lorem id viverra auctor, erat ex convallis ante, a porttitor lectus lacus quis urna. Sed tortor sapien, facilisis sed mauris eget, convallis feugiat eros. Praesent sit amet sapien ut lacus tristique posuere in quis tellus. Sed cursus sapien quis elit fermentum feugiat. Donec tristique tortor condimentum sem rutrum, condimentum molestie lectus tincidunt.</p>
+			<p>Duis aliquam turpis vel turpis consequat cursus. Pellentesque mattis ipsum tempus nibh ultricies, eget venenatis elit ultrices. Ut nec quam elit. Sed dapibus elit eu lectus dapibus luctus. Curabitur luctus metus in auctor laoreet. Ut eleifend ligula magna, et cursus libero malesuada sit amet. Ut lacus metus, ullamcorper sed vulputate ac, porta eget lorem. Integer mollis suscipit rhoncus. Sed at congue justo, et finibus urna. Nunc iaculis sollicitudin urna. Quisque suscipit sapien eget luctus malesuada. Vivamus vel pellentesque dolor. Donec dictum lobortis ex sed interdum. Nunc eget urna ac lectus tempor aliquet.</p>
+			<p>Donec lacinia, mi vitae pulvinar ultrices, enim quam suscipit ipsum, vitae lobortis metus lectus sodales lorem. Praesent consequat risus molestie viverra accumsan. Nunc vitae mi sit amet sapien aliquam placerat. Proin eu malesuada magna. In efficitur gravida aliquet. Praesent eu orci ac sapien lacinia condimentum. Aliquam erat volutpat. Cras ligula elit, lacinia quis molestie nec, ultricies quis risus. Quisque eget tristique urna, vel fermentum neque. Morbi eu mollis nisi, et suscipit velit. Pellentesque ullamcorper feugiat ante, semper lacinia enim tristique ac. Pellentesque eget quam pharetra, suscipit turpis ut, sollicitudin purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam quis tellus non tellus tempor viverra et sed erat. Pellentesque accumsan odio non finibus tincidunt. Curabitur ac elit vestibulum, fringilla arcu lacinia, porttitor elit.</p>
+			<p>In efficitur justo ut elit porttitor elementum. Aenean congue laoreet dolor, in pharetra augue dictum et. Curabitur et egestas libero. Phasellus bibendum ligula mauris. Ut sed dui bibendum, tristique ligula a, accumsan lacus. Sed dictum, elit eu interdum varius, augue mi cursus nisi, non semper est ligula blandit massa. Aenean convallis, elit non tincidunt euismod, purus felis vulputate tortor, eget dictum lectus arcu sed quam. Sed maximus, lorem ut placerat hendrerit, turpis dolor aliquam ipsum, sed dignissim dolor nisi sit amet turpis. Mauris rhoncus sem eu mi aliquet elementum sit amet sit amet leo. Phasellus egestas faucibus eleifend. Duis et rhoncus urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras placerat nibh eu orci auctor rutrum. Nam placerat porta quam consectetur varius. Maecenas feugiat euismod quam quis condimentum.</p>
+			<p>Duis ornare magna quis ultricies finibus. Etiam tincidunt nibh in nunc feugiat, sed aliquam neque porttitor. Aenean consequat eu lorem id consectetur. Integer et hendrerit enim. Donec justo nisl, porta nec malesuada imperdiet, mattis vestibulum ante. Integer aliquet tempus blandit. Morbi hendrerit suscipit sapien et elementum. Nullam at varius magna, ut ornare diam. Phasellus efficitur massa massa, vitae iaculis quam commodo eu. Fusce efficitur pharetra diam, a porta nunc semper et. Cras a bibendum augue.</p>
+		</div>
+</div>
+
+<script src="http://d3js.org/d3.v3.min.js"  charset="utf-8"></script>
+<script src="script.js"></script>
+
+</body>
