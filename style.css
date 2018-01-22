@@ -1,0 +1,263 @@
+html {
+	background-image: radial-gradient(rgb(110,110,110) 0%, rgb(20,20,20) 100%);
+	color: white;
+	font-family: 'NJFont', sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+#header {
+	background-color: darkorange;
+	border-right: 1px solid white;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 200px;
+}
+
+#logoCollection {
+	bottom: 20px;
+	height: 400px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.logobox {
+	cursor: pointer;
+	float: left;
+	height: 78px;
+	padding: 10px;
+	width: 180px;
+}
+
+.logobox:hover {
+	background-color: gold;
+}
+
+.gitHubLogo {
+	width: 80px;
+}
+
+.logoText {
+	display: inline-block;
+	font-size: 24px;
+	padding-left: 15px;
+	padding-top: 30px;
+	position: absolute;
+	width: 100px;
+}
+
+.tflLogo {
+	height: 140px;
+	padding-left: 25px;
+	position: absolute;
+	top: 20px;
+}
+
+.container {
+	height: 100%;
+	left: 15%;
+	position: fixed;
+	top: 20px;
+	width: 30%;	
+}
+
+.arrows {
+	font-size: 60px;
+	text-align: center;
+}
+
+.prodFamily {
+	height: 760px;
+	margin-bottom: 10px;
+	overflow-y: hidden;
+	width: 100%;
+}
+
+#data {
+	display: none;
+}
+
+.titleBox {
+	border-radius: 10px;
+	cursor: pointer;
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+	width: 82%;
+}
+
+.titleBox:hover {
+	background-color: rgba(100,100,100,0.8);
+}
+
+.articleImg {
+	border: 1px solid white;
+	border-radius: 50%;
+	display: inline-block;
+	height: 80px;
+	float: left;
+	position: relative;
+	width: 80px;
+}
+
+#py1-sm {
+	background-image: url("python-logo-sm.png");
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+#py1-lg {
+	background-image: url("python-logo-lg.png");
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+#r1 {
+	background-image: url("r1.png");
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+#ds1 {
+	background-image: url("dataScience.png");
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+#ds2 {
+	background-image: url("dataScience1-sm.png");
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+#ds3 {
+	background-image: url("dataScience3-sm.png");
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+#pyr1 {
+	background-image: url("TfL-PyR-sm.png");
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+.optionBoxTitle {
+	float: right;
+	margin-left: 10px;
+	text-align: right;
+	width: 74%;
+}
+
+.titleTxt {
+	font-size: 24px;
+}
+
+.articleDate {
+	color: grey;
+	font-size: 14px;
+}
+
+.summaryTxt {
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.tags {
+	color: orange;
+	font-size: 12px;
+	position: relative;
+	right: 0;
+	width: 100%;
+}
+
+.tag {
+	float: right;
+	line-height: 24px;
+	padding-left: 10px;
+	text-align: right;
+}
+
+#mainArticle {
+	height: 790px;
+	left: 45%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	overflow-y: scroll;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: absolute;
+	width: 50%;
+}
+
+.mainArticleImg {
+	border: 1px solid white;
+	border-radius: 50%;
+	height: 250px;
+	left: 280px;
+	position: relative;
+	width: 250px;
+}
+
+#mainArticleRect {
+	border: 1px solid rgba(255,255,255,0.4);
+	border-radius: 10px;
+	height: 70px;
+	left: 255px;
+	position: absolute;
+	top: 89px;
+	width: 360px;
+	z-index: -1;
+}
+
+#mainArticleTitle {
+	font-size: 36px;
+	text-align: center;
+}
+
+#mainArticleDate {
+	color: grey;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#mainArticleTags {
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.mainArticleTag {
+	color: orange;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+.pageTitle {
+	bottom: 20px;
+	color: rgb(139,82,0);
+	font-size: 48px;
+	font-weight: 600;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
